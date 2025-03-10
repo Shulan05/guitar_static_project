@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Siemreap&display=swap');
+
+:root{
+    --coffee-color-800:#7a4419;
+    --coffee-color-700:#935415;
+    --coffee-color-600:#b87616;
+    --coffee-color-500:#d5981d;
+    --coffee-color-400:#e5af2a;
+    --coffee-color-300:#ecc858;
+    --coffee-color-200:#f3e095;
+    --coffee-color-100:#f9f0c8;
+}
+
+
+/* -----------background color--------- */
+.bg-coffee-800{
+    background-color: var(--coffee-color-800) !important;
+}
+.bg-coffee-700{
+    background-color: var(--coffee-color-700) !important;
+}
+.bg-coffee-600{
+    background-color: var(--coffee-color-600) !important;
+}
+.bg-coffee-500{
+    background-color: var(--coffee-color-500) !important;
+}
+.bg-coffee-400{
+    background-color: var(--coffee-color-400) !important;
+}
+.bg-coffee-300{
+    background-color: var(--coffee-color-300) !important;
+}
+.bg-coffee-200{
+    background-color: var(--coffee-color-200) !important;
+}
+.bg-coffee-100{
+    background-color: var(--coffee-color-100) !important;
+}
+
+
+/* ==============Text color=----------- */
+.text-coffee-800{
+    color: var(--coffee-color-800) !important;
+}
+.text-coffee-700{
+    color: var(--coffee-color-700) !important;
+}
+.text-coffee-600{
+    color: var(--coffee-color-600) !important;
+}
+.text-coffee-500{
+    color: var(--coffee-color-500) !important;
+}
+.text-coffee-400{
+    color: var(--coffee-color-400) !important;
+}
+.text-coffee-300{
+    color: var(--coffee-color-300) !important;
+}
+.text-coffee-200{
+    color: var(--coffee-color-200) !important;
+}
+.text-coffee-100{
+    color: var(--coffee-color-100) !important;
+}
+
+.font-roboto{
+    font-family: "Roboto Condensed", sans-serif !important;
+}
+
+.bg-black{
+    background-color: black;
+}
+.font-apple{
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+  font-style: normal;
+}
+
+.hover-ruler:hover{
+    text-decoration: underline !important;
+    
+}
