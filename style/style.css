@@ -80,9 +80,7 @@
   text-decoration: underline !important;
 }
 
-.hover-ruler:hover {
-  text-decoration: underline !important;
-}
+
 .hero {
   position: relative;
   background: url(https://i.pinimg.com/originals/11/1a/f4/111af48319736115f8eafaec195bd5ee.jpg);
@@ -98,5 +96,11 @@
   width: 100%;
   height: 100%;
   z-index: 1;
-  background: rgb(41, 41, 41, 0.815);
+  background: rgba(94, 92, 92, 0.815);
+}
+
+.hover-bg:hover{
+  background-color: var(--coffee-color-600);
+  color: white;
+  transition: 0.3s ease-in-out;
 }

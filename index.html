@@ -39,6 +39,13 @@
     <link rel="stylesheet" href="./script/swiper.js" />
 
     <link rel="stylesheet" href="./style/style.css" />
+    <!-- ---------------link Slick---------- -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <div class="cotainer-fluid p-0">
@@ -153,51 +160,56 @@
           </div>
         </div>
       </div>
-      <main>
+      <main class="mb-5">
         <div class="hero container-fluid p-0">
-          <div class=" container p-0">
+          <div class="container p-0">
             <div class="row m-0">
               <div
-                class="col-12 col-md-6 p-0 py-5 text-center text-md-start font-roboto align-content-center z-3"
+                class="col-12 col-md-6 p-0 py-4 d-md-grid font-roboto align-content-center z-3"
               >
                 <div class="text-center text-md-start">
-                  <h2 class="text-uppercase text-secondary fw-normal text-coffee-200">
+                  <h2
+                    class="text-uppercase text-secondary fw-normal text-coffee-200"
+                  >
                     Back to the Original
                   </h2>
-                  <h1 class="fw-bold text-light" style="font-size: clamp(45px, 5vw, 220px)">
+                  <h1
+                    class="fw-bold text-light"
+                    style="font-size: clamp(45px, 5vw, 220px)"
+                  >
                     ACCOUSTIC 80's GUITAR
                   </h1>
-                  <button class="btn bg-coffee-800 text-light">Shop Now</button>
+                  <button class="btn bg-coffee-800 text-light" data-aos="fade-right">Shop Now</button>
                 </div>
               </div>
               <div class="col-12 col-md-6 p-5">
                 <swiper-container init="false" class="mySwiper">
-                  <swiper-slide  title="Drag on it">
+                  <swiper-slide title="Drag on it">
                     <img
                       src="https://www.pngarts.com/files/1/Acoustic-Guitar-PNG-Transparent-Image.png"
                       alt=""
-                      class="w-100 h-100 object-fit-contain"
+                      class="w-100 h-100 object-fit-contain "
                     />
                   </swiper-slide>
                   <swiper-slide>
                     <img
                       src="https://www.pngall.com/wp-content/uploads/2016/06/Acoustic-Guitar-PNG-HD.png"
                       alt=""
-                      class="w-100 h-100 object-fit-contain"
+                      class="w-100 h-100 object-fit-contain "
                     />
                   </swiper-slide>
                   <swiper-slide>
                     <img
                       src="https://pluspng.com/img-png/acoustic-hd-png-bass-guitar-png-hd-1280.png"
                       alt=""
-                      class="w-100 h-100 object-fit-contain"
+                      class="w-100 h-100 object-fit-contain "
                     />
                   </swiper-slide>
                   <swiper-slide>
                     <img
                       src="https://pluspng.com/img-png/acoustic-hd-png-acoustic-guitar-png-image-png-image-722.png"
                       alt=""
-                      class="w-100 h-100 object-fit-contain"
+                      class="w-100 h-100 object-fit-contain "
                     />
                   </swiper-slide>
                 </swiper-container>
@@ -205,10 +217,272 @@
             </div>
           </div>
         </div>
-       
+
+        <div class="container p-0 py-4 " >
+          <div class="d-flex font-roboto overflow-x-auto">
+            <div class="col-6 col-md-4 col-lg-3 text-center">
+              <div style="width: 110px ;height: 110px;" class="mx-auto">
+                <img src="./assets/icons/guitaricon1.png" alt="" class="w-100 h-100 object-fit-cover">
+              </div>
+              <p class="my-2">ACCOUSTIC</p>
+              
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 text-center">
+              <div style="width: 110px ;height: 110px;" class="mx-auto">
+                <img src="./assets/icons/guitar2.png" alt="" class="w-100 h-100 object-fit-cover">
+              </div>
+              <p class="my-2">ELECTRONIC</p>
+              
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 text-center">
+              <div style="width: 110px ;height: 110px;" class="mx-auto">
+                <img src="./assets/icons/guitar3.png" alt="" class="w-100 h-100 object-fit-cover">
+              </div>
+              <p class="my-2">BASE</p>
+              
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 text-center">
+              <div style="width: 110px ;height: 110px;" class="mx-auto">
+                <img src="./assets/icons/guitar4.png" alt="" class="w-100 h-100 object-fit-cover">
+              </div>
+              <p class="my-2">ACCESSORIES</p>
+              
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="container p-0">
+          <div class="row alignt-items-center m-0 my-3">
+            <div class="col-12 col-lg-4">
+              <div class="card overflow-hidden">
+                <div style="height: 350px" >
+                  <img
+                    src="/assets/images/playguitar.png"
+                    alt=""
+                    class="w-100 h-100 object-fit-cover"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-8 font-roboto"data-aos="fade-up">
+              <div class="my-3 my-lg-0">
+                <h2 class="m-0">60TH ANNIVERSARY</h2>
+                <hr
+                  class="border-3 bg-black my-0"
+                  style="height: 2px; width: 100px"
+                />
+                <p class="my-3 text-secondary fs-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                  error sit assumenda sint repellendus tenetur mollitia, ipsum
+                  soluta rem amet officia molestias facere libero dolore animi
+                  ratione saepe accusantium est?Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Iusto officia magni similique.
+                  Voluptatum libero veritatis rem illo, deleniti voluptatem
+                  repellat mollitia adipisci harum amet autem ut, aut assumenda
+                  qui beatae?
+                </p>
+                <button class="btn bg-coffee-700 text-light">
+                  Pre Order Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container p-0 py-4 text-center font-roboto">
+          <h3 class="m-0">What's New</h3>
+          <hr style="height: 3px; width: 80px;" class="mx-auto my-0 bg-coffee-800 mb-4">
+          <div class="row m-0" data-aos="fade-up">
+            <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay ="300">
+              <div class="hover-bg transition">
+                <div style="max-height: 700px;">
+                  <img src="./assets/images/guitar4.png" alt="" class="w-100 h-100 object-fit-cover">
+                </div>
+                <p class="fs-5 pb-3">ELECTRONIC</p>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3"data-aos="fade-up" data-aos-delay ="400">
+              <div class="hover-bg transition">
+                <div style="max-height: 700px;">
+                  <img src="./assets/images/guitar5.png" alt="" class="w-100 h-100 object-fit-cover">
+                </div>
+                <p class="fs-5 pb-3">ACCOUSTIC</p>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3"data-aos="fade-up" data-aos-delay ="500">
+              <div class="hover-bg transition">
+                <div style="max-height: 700px;">
+                  <img src="./assets/images/guitar6.png" alt="" class="w-100 h-100 object-fit-cover">
+                </div>
+                <p class="fs-5 pb-3">JAZZ</p>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay ="600">
+              <div class="hover-bg transition">
+                <div style="max-height: 700px;">
+                  <img src="./assets/images/guitar7.png" alt="" class="w-100 h-100 object-fit-cover">
+                </div>
+                <p class="fs-5 pb-3">BASE</p>
+              </div>
+            </div>
+            
+          </div>
+<!-- ----------Pick up Content------------ -->
+          
+          <div class="container p-0 py-4 text-center font-roboto">
+            <div class="d-flex justify-content-between align-items-center px-3 mb-3">
+              <div class="col-5 col-md-3 col-lg-2">
+                <select name="" id="" class="form-select shadow-none border rounder-0">
+                  <option value="">BASS</option>
+                  <option value="">ACCOUSTIC</option>
+                </select>
+              </div>
+              <div class="col-5 text-end">
+                <h3 class="m-0">Pick up Guitar</h3>
+                <hr style="height: 3px; width: 80px; " class="my-0 bg-coffee-800 mt-2 float-end">
+              </div>
+            </div>
+            
+            <div class="row m-0">
+              <div class="col-6 col-lg-3"data-aos="fade-up" data-aos-delay ="300">
+                <div class="hover-bg transition">
+                  <div style="max-height: 700px;">
+                    <img src="./assets/images/guitar4.png" alt="" class="w-100 h-100 object-fit-cover">
+                  </div>
+                  <p class="fs-5 pb-3">ELECTRONIC</p>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3"data-aos="fade-up" data-aos-delay ="400">
+                <div class="hover-bg transition">
+                  <div style="max-height: 700px;">
+                    <img src="./assets/images/guitar5.png" alt="" class="w-100 h-100 object-fit-cover">
+                  </div>
+                  <p class="fs-5 pb-3">ACCOUSTIC</p>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3"data-aos="fade-up" data-aos-delay ="500">
+                <div class="hover-bg transition">
+                  <div style="max-height: 700px;">
+                    <img src="./assets/images/guitar6.png" alt="" class="w-100 h-100 object-fit-cover">
+                  </div>
+                  <p class="fs-5 pb-3">JAZZ</p>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3"data-aos="fade-up" data-aos-delay ="600">
+                <div class="hover-bg transition">
+                  <div style="max-height: 700px;">
+                    <img src="./assets/images/guitar7.png" alt="" class="w-100 h-100 object-fit-cover">
+                  </div>
+                  <p class="fs-5 pb-3">BASE</p>
+                </div>
+              </div>
+              
+            </div>
+        </div>
       </main>
-      <footer></footer>
+      <footer class="container-fluid p-0 position-relative mt-5">
+        <div class="bg-danger position-absolute container row align-items-center m-0 py-4 mt-2 mt-lg-0" style="top: 0px; left: 50%; transform: translate(-50%,-50%);">
+          <div class="col-lg-6 text-light">
+            <h3 class="m-0 text-light">SUBCRIBE TO FENDER NEWSLETTER</h3>
+            <hr style="height: 4px; width: 20%; " class="border-3 bg-body my-0">
+          </div>
+          <div class="col-lg-6">
+            <form action="" class="d-flex bg-body mt-2 mt-lg-0" >
+              <input type="text" name="" id="" class="form-control shadow-none border-0 rounded-0 bg-transparent py-3" placeholder="enter email">
+              <button class="btn btn-dark rounded-0 px-lg-5">SUBCRIBE</button>
+            </form>
+          </div>
+        
+        
+        </div>
+        <div class="bg-dark">
+         <div class="container p-0 pt-3 pt-lg-0">
+          <div class="row m-0 mt-5">
+            <div class="col-lg-4 p-5 bmt-5 mt-lg-0 text-light">
+              <div class="d-flex align-items-cente mt-5">
+                <img src="./assets/icons/logo.png" alt="" style="width: 60px" />
+                <h1 class="text-coffee-100 m-0 font-apple ms-2">Guitar</h1>
+              </div>
+              <p class="fs-5 mb-0 mt-3">Lorem ipsum dolor sit amet, consectetur</p>
+              <p class="fs-5"> Follow Us</p>
+              <ul class="nav mt-2">
+                <li class="ps-0 nav-link text-light fs-4">
+                <i class=" bi bi-facebook"></i>
+                </li>
+                <li class="ps-0 nav-link text-light fs-4">
+                  <i class=" bi bi-messenger"></i>
+                  </li>
+                  <li class="ps-0 nav-link text-light fs-4">
+                    <i class=" bi bi-instagram"></i>
+                    </li>
+              </ul>
+
+            </div>
+            <div class="col-lg-4 p-5  mt-lg-5  pt-5">
+              <div class="row text-light">
+                <div class="col-6 ">
+                  <h4>Product</h4>
+                  <ul class="list-unstyled">
+                    <li class="fs-5">Eletronnic Guitar</li>
+                    <li class="fs-5">Accoustic Guitar</li>
+                    <li class="fs-5">Basses</li>
+                    <li class="fs-5">Piano</li>
+                  </ul>
+                </div>
+                <div class="col-6  ">
+                  <h4>Product</h4>
+                  <ul class="list-unstyled">
+                    <li class="fs-5">Eletronnic Guitar</li>
+                    <li class="fs-5">Accoustic Guitar</li>
+                    <li class="fs-5">Basses</li>
+                    <li class="fs-5">Piano</li>
+                  </ul>
+                </div>
+              </div>
+             
+              
+            </div>
+            <div class="col-lg-4 p-5  mt-lg-5  pt-5">
+              <div class="row text-light">
+                <div class="col-6 ">
+                  <h4>Help</h4>
+                <ul class="list-unstyled">
+                  <li class="fs-5">Privacy Portal</li>
+                  <li class="fs-5">Term Of Use</li>
+                  <li class="fs-5">FAQ's</li>
+                  
+                </ul>
+                </div>
+                <div class="col-6  ">
+                  <h4>Service</h4>
+                  <ul class="list-unstyled">
+                    <li class="fs-5">Support</li>
+                    <li class="fs-5">Finde a Dealer</li>
+                   
+                  </ul>
+                </div>
+              </div>
+             
+              
+            </div>
+            
+          </div>
+
+         </div>
+         <div class="border-top border-secondary text-center text-secondary">
+          <p class="fs-5 m-0 pt-2">@Copy right by dj.tracy</p>
+        </div>
+        </div>
+        
+      </footer>
     </div>
   </body>
+  <script src="./script/script.js"></script>
   <script src="./script/swiper.js"></script>
+  <script
+    type="text/javascript"
+    src="//code.jquery.com/jquery-1.11.0.min.js"
+  ></script>
+ 
 </html>
